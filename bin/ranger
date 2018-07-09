@@ -1,0 +1,11 @@
+#!/usr/bin/env ruby
+
+# encoding: UTF-8
+# frozen_string_literal: true
+
+$: << File.expand_path(File.join(__dir__, '..', 'lib'))
+require 'ranger'
+
+Ranger.run!
+
+# -*- RUBY -*-
